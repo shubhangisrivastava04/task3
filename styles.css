@@ -1,0 +1,113 @@
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+}
+body{
+    background: #fafafa;
+    font-size: 14px;
+}
+.box1 .header {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+}
+.box1 .header .top,
+.box1 .signup {
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    padding: 50px 50px 20px;
+}
+.box1 .header .logo img{
+display: block;
+margin: auto 35px;
+}
+.box1 .header .inputdata .userinput {
+    margin-bottom: 5px;
+}
+.box1 .header .inputdata .userinput .input {
+   width: 100%;
+   background: #fafafa;
+   border: 1px solid #b2b2b2;
+   font-size: 12px;
+   border-radius: 3px;
+   color: #262626;
+   padding: 10px;
+}
+.box1 .header .userinput .inputdata .input:focus{
+    border: 1px solid #b2b2b2;
+}
+.box1 .header .inputdata .button{
+    margin: 10px 0;
+    background: #3897f0;
+    border: 1px solid #3897f0;
+    border-radius: 4px;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+}
+.box1 .header .inputdata .button a{
+    color: #fff;
+    display: block;
+}
+.box1 .header .inputdata .button a:hover{
+    color: #365185;
+    display: block;
+}
+.box1 .header .or{
+    display: flex;
+    height: 15px;
+    margin: 15px 0 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.box1 .header .or .orline{
+width: 105px;
+height: 2px;
+background: #efefef;
+}
+.box1 .header .or p{
+    color: #999;
+    font-size: 12px;
+}
+.box1 .header .belowline .facebook {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.box1 .header .belowline .facebook img{
+    width: 16px;
+    height: 16px;
+}
+.box1 .header .belowline .facebook a{
+    color: #365185;
+    font-weight: 600;
+    margin-left: 10px;
+}
+.box1 .header .belowline .forgotpass{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+}
+.box1 .header .belowline .forgotpass a{
+    color: #003569;
+}
+ .box1 .signup{
+    margin: 10px 0 20px;
+    padding: 25px 40px;
+    text-align: center;
+    color: #262626;
+    font-weight: 500;;
+}
+
+ .box1 .signup a{
+    color: #3897f0;
+    font-weight: 600;
+}
